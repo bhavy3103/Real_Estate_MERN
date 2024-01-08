@@ -59,7 +59,7 @@ const SignUp = () => {
         <button disabled={loading} className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-70'>
           {loading ? 'Loading' : 'Sign Up'}
         </button>
-        <OAuth />
+        {/* <OAuth /> */}
       </form>
       <div className='flex gap-2 mt-4'>
         <p>Have an account?</p>
